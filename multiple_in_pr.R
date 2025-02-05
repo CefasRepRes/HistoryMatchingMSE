@@ -234,4 +234,3 @@ p_rem8 <- (lapply(out8,FUN = function(x){x$p_rem}))
 plot(table(rounds8),xlab="number of rounds",ylab="total")
 table(opts8)
 
-save.image("C:/Users/MS23/OneDrive - CEFAS/ICES working groups/WKGMSE 2020/Other_stuff/parUpdate.Rdata")

@@ -150,4 +150,3 @@ hist(runs_hill_sa_c)
 mean(runs_hill_sa_c)
 plot(table(round_sa_c))
 
-save.image("C:/Users/MS23/OneDrive - CEFAS/ICES working groups/WKGMSE 2020/Other_stuff/HillClimbing.Rdata")

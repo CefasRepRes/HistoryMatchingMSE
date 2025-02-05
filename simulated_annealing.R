@@ -198,5 +198,3 @@ plot(table(syn_sim_anal_round_9))
 table(syn_test_best9)
 
 
-
-save.image("C:/Users/MS23/OneDrive - CEFAS/ICES working groups/WKGMSE 2020/Other_stuff/simulated_annealing.Rdata")

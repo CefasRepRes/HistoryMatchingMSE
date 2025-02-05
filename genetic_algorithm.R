@@ -121,5 +121,4 @@ mean(gen_alg_runs)
 plot(table(gen_alg_round))
 table(test_best)
 
-save.image("C:/Users/MS23/OneDrive - CEFAS/ICES working groups/WKGMSE 2020/Other_stuff/genetic_algorithm.Rdata")
 

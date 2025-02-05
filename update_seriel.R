@@ -290,4 +290,4 @@ n_runs <- unlist(lapply(test,function(x){nrow(x$runs)}))
 hist(n_runs)
 table(test_best)
 #which(test_best[,2]==160000)
-save.image("C:/Users/MS23/OneDrive - CEFAS/ICES working groups/WKGMSE 2020/Other_stuff/update_seriel.Rdata")
+
