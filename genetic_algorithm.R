@@ -46,7 +46,7 @@ get_new_sample <- function(sammy,cur_par){
 
 genetic_algorthim <- function(init,n_core,n_updates=1,clever=T){
   if (missing(init)){
-    tmp <- sample(1:nrow(dat),n_core)
+    #tmp <- sample(1:nrow(dat),n_core)
     #init <- cbind(dat$Ftrgt[tmp],dat$Btrigger[tmp])
     ###
     init <- cbind(sample(unique(dat$Ftrgt)[seq(1,40,length.out=n_core)]),sample(rep(unique(dat$Btrigger),length.out=n_core),size = n_core))
